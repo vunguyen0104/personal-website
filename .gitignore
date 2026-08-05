@@ -1,6 +1,45 @@
-# Transient decision-page logs from the design tooling
+# ---------------------------------------------------------------------------
+# vunguyen.io
+#
+# Zero-build static site: GitHub Pages publishes this repo's files as-is, so
+# the source IS the deployed artifact. Never ignore anything the page loads —
+# index.html, assets/, certificates/, CNAME. There is no build output here to
+# exclude, which is why this file is short.
+# ---------------------------------------------------------------------------
+
+# Design tooling: transient session state only.
+# Deliberately still tracked, because they are the project's design record:
+#   .impeccable/design.json
+#   .impeccable/surfaces/
+#   .impeccable/live/config.json
 .impeccable/questions/
+.impeccable/sketches/
+.impeccable/live/sessions/
+.impeccable/live/roots.json
+.impeccable/live/inject-journal.json
+
+# Browser-automation output from local QA passes
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# Local tooling, should any ever be added. The site itself stays build-free.
+node_modules/
+.cache/
+*.log
+
+# Secrets. Nothing here is served, so nothing here belongs in the repo.
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
 
 # OS cruft
 .DS_Store
+._*
 Thumbs.db
+desktop.ini
