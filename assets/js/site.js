@@ -169,6 +169,15 @@
 
   syncCurrent();
 
+  /* --- Copyright year ---------------------------------------------------- */
+
+  /* The markup ships a literal year so the footer is never blank or wrong
+     without JS; this only keeps it current. Reads the visitor's clock. */
+  Array.prototype.slice.call(document.querySelectorAll('[data-current-year]'))
+    .forEach(function (el) {
+      el.textContent = String(new Date().getFullYear());
+    });
+
   /* --- Form ------------------------------------------------------------- */
 
   /* smart-forms.min.js owns submission. This only stops a double-send and tells the

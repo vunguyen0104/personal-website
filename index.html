@@ -480,7 +480,8 @@
 
         <div class="foot__end">
             <span class="foot__wordmark">vunguyen.io</span>
-            <span class="foot__meta">Vu Nguyen &copy; 2026 &middot; Boston, Massachusetts</span>
+            <!-- The literal year is the no-JS fallback; site.js overwrites it on load. -->
+            <span class="foot__meta">Vu Nguyen &copy; <span data-current-year>2026</span> &middot; Boston, Massachusetts</span>
         </div>
     </div>
 </footer>
