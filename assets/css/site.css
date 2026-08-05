@@ -375,22 +375,6 @@ button { font: inherit; color: inherit; }
 
 .portrait img { width: 100%; aspect-ratio: 5 / 6; object-fit: cover; }
 
-/* Set in HTML, not in the SVG: an <img>-loaded SVG cannot reach the page webfonts */
-.portrait__pending {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 25%;
-  text-align: center;
-  font-family: var(--table);
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  /* Scales with the plate so clearance above the tag holds at narrow widths */
-  font-size: clamp(0.6875rem, 1.05vw, 0.9375rem);
-  color: #8fa0b3;
-}
-
 .portrait__tag {
   position: absolute;
   left: 0;
@@ -1143,9 +1127,6 @@ button { font: inherit; color: inherit; }
 @media (max-width: 30rem) {
   .panel__destinations { flex-direction: column; align-items: stretch; }
   .dest { justify-content: flex-start; }
-
-  /* The tag's height is fixed while the plate shrinks, so lift the label off it */
-  .portrait__pending { bottom: 31%; }
 
   /* Three-state control stays one even row instead of wrapping 2 + 1 */
   .line-legend { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.35rem; }

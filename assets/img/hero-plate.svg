@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img"
+     aria-label="Drafted elevation of a cable-stayed bridge, its stays in the site's four route colours, over banded water that reads as stacked table rows">
+
+  <!-- Hero plate: a civil-engineering elevation, drawn in the signage world.
+       An inverted-Y pylon set off-centre with a long main span and short back
+       stays — the Zakim Bunker Hill form. Boston, and the discipline Vu trained
+       in twice before software. The stays carry the four route colours, lifted
+       in tint so they hold against navy; the bands under the deck read as
+       harbour water or as rows in a table, depending which career you are
+       looking for. No <text>: this file loads through <img>. -->
+
+  <rect width="400" height="480" fill="#16293D"/>
+
+  <!-- Drafting grid -->
+  <g stroke="#22374d" stroke-width="1">
+    <path d="M0 40h400M0 80h400M0 120h400M0 160h400M0 200h400M0 240h400M0 280h400M0 320h400"/>
+    <path d="M40 0v480M80 0v480M120 0v480M200 0v480M240 0v480M280 0v480M320 0v480M360 0v480"/>
+  </g>
+  <!-- Pylon centreline -->
+  <path d="M150 16V438" stroke="#2c435c" stroke-width="1" stroke-dasharray="10 6 2 6"/>
+
+  <!-- Water / rows -->
+  <g stroke="#24384f" stroke-linecap="round">
+    <path d="M14 378h372" stroke-width="3"/>
+    <path d="M14 396h372" stroke-width="2"/>
+    <path d="M14 414h372" stroke-width="3"/>
+    <path d="M14 432h372" stroke-width="2"/>
+  </g>
+
+  <!-- Stays: long fan to the main span, short back stays to the abutment -->
+  <g stroke-width="3.5" stroke-linecap="round">
+    <path d="M156 84 360 348" stroke="#E2495C"/>
+    <path d="M156 116 314 348" stroke="#E8873A"/>
+    <path d="M156 148 268 348" stroke="#3BA277"/>
+    <path d="M156 180 222 348" stroke="#4593DD"/>
+
+    <path d="M144 84 42 348" stroke="#E2495C"/>
+    <path d="M144 122 78 348" stroke="#E8873A"/>
+    <path d="M144 160 114 348" stroke="#3BA277"/>
+  </g>
+
+  <!-- Pier -->
+  <rect x="132" y="360" width="36" height="58" fill="#24384f"/>
+
+  <!-- Pylon: tapered mast over splayed legs -->
+  <g fill="#E6E5E0">
+    <path d="M145 44 L155 44 L158 262 L142 262 Z"/>
+    <path d="M142 262 L150 262 L128 350 L114 350 Z"/>
+    <path d="M158 262 L150 262 L172 350 L186 350 Z"/>
+  </g>
+
+  <!-- Deck, with the tactile edge on top -->
+  <rect x="14" y="348" width="372" height="12" fill="#E6E5E0"/>
+  <rect x="14" y="344" width="372" height="4" fill="#FFC72C"/>
+
+  <!-- Survey benchmark on the datum -->
+  <path d="M52 332 L60 344 L44 344 Z" fill="#FFC72C"/>
+</svg>

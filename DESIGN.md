@@ -321,7 +321,16 @@ The VTN monogram as an **interchange roundel**: four route arcs at 6px stroke ar
 - `assets/img/vtn-mark.svg` — the full mark. Nav and any use at 32px or above.
 - `assets/img/vtn-favicon.svg` — single-letter V variant, 7px arcs. Below ~32px only; three letterforms are illegible at favicon size.
 
-**The No-Text-In-SVG Rule.** Both files, and `portrait-placeholder.svg`, carry their letterforms as outlined paths. An SVG loaded through `<img src>` or as a favicon is an isolated document that cannot reach the page's webfonts, so an `<text>` element silently falls back to the platform sans. Any future standalone SVG that needs lettering outlines it or sets the type in HTML over the image.
+**The No-Text-In-SVG Rule.** Both files carry their letterforms as outlined paths. An SVG loaded through `<img src>` or as a favicon is an isolated document that cannot reach the page's webfonts, so an `<text>` element silently falls back to the platform sans. Any future standalone SVG that needs lettering outlines it or sets the type in HTML over the image — `hero-plate.svg` sidesteps the question entirely by carrying no lettering at all.
+
+### Hero plate
+
+`assets/img/hero-plate.svg` fills the second focal slot of the first viewport: a drafted elevation of an inverted-Y cable-stayed pylon, off-centre, with a long main-span fan and short back stays. It is the civil-engineering half of the record — the discipline Vu trained in twice before software — and it is Boston. Construction rules that hold if it is ever redrawn:
+
+- **Stays carry the route colours, lifted in tint.** `#E2495C` `#E8873A` `#3BA277` `#4593DD` against `ink-raised`. The page's own `red`/`orange`/`green`/`blue` are mixed for light grounds and go muddy on navy; the tints keep the hue identity while clearing the ground. This is the one sanctioned departure from the literal route values, and it applies only to artwork sitting on navy.
+- **Structure is `ground`, never white.** Pylon and deck in `#E6E5E0`, pier and water in the grid neutrals, tactile yellow on the deck edge and the survey benchmark — the same three-tier reading as the rest of the page.
+- **The bands below the deck are deliberately double-coded**, harbour water or rows in a table. Do not resolve the ambiguity in either direction.
+- **No gradients, no perspective, no photorealism.** It is an elevation drawn on a drafting grid, not a picture of a bridge.
 
 ### The Line (signature component)
 
