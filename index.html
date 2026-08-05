@@ -3,273 +3,491 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Vu Nguyen, Database Developer + Software Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vu Nguyen — Database Developer + Software Engineer</title>
+    <meta name="description" content="Vu Nguyen builds and runs in-house applications and databases for a Massachusetts public-safety agency, and has since 2005. Projects, work history, degrees and certificates.">
+    <meta name="theme-color" content="#0d1b2a">
+    <link rel="canonical" href="https://vunguyen.io/">
     <meta property="og:type" content="website">
-    <meta name="description" content="Vu Nguyen, Database Developer + Software Engineer">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/BS5-Jumbotron-with-background-Image.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta property="og:url" content="https://vunguyen.io/">
+    <meta property="og:title" content="Vu Nguyen — Database Developer + Software Engineer">
+    <meta property="og:description" content="Schema through shipped interface. Twenty years of in-house applications and databases for a Massachusetts public-safety agency.">
+    <meta name="twitter:card" content="summary">
+    <!-- No og:image: the only raster mark on file is the superseded logo. To restore
+         rich previews, export assets/img/vtn-mark.svg to PNG (1200x630 ideal, 512x512
+         minimum), drop it in assets/img/, and add it back as og:image here. -->
+
+    <link rel="icon" href="assets/img/vtn-favicon.svg" type="image/svg+xml">
+    <link rel="mask-icon" href="assets/img/vtn-favicon.svg" color="#0d1b2a">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Barlow+Condensed:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/site.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
-<body style="border-bottom-color: rgb(33, 37, 41);font-size: 15px;color: #343434;line-height: 1.5;font-family: 'Montserrat', sans-serif;">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-white">
-        <div class="container"><a class="navbar-brand" href="#home" style="background: url(&quot;assets/img/VTN_Logo_Color.eldp.png&quot;) center / cover no-repeat, #ffffff;width: 64px;height: 56px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#home" style="font-weight: bold;">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#project">Project</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
+<body>
+<!--
+  THESIS: A career read as a route map — one corridor, thirty years, every job and
+  degree a dated station. Refuses the card-grid resume and the dark-terminal dev portfolio.
+  OWN-WORLD: Massachusetts civic signage. Navy enamel panels on concrete ground, tactile
+  yellow edge, four functional line colours (red projects, orange work, green study, blue
+  contact), Archivo expanded signage caps over Barlow Condensed timetable data, authored
+  SVG pictograms, no gradients anywhere.
+  STORY: A recruiter or peer sees one specific person who has shipped end-to-end since
+  2005, traces the line, opens a live project, and emails him.
+  FIRST VIEWPORT: Full-bleed navy panel; VU NGUYEN in expanded caps at panel scale;
+  sub-legend, intro and stack strip left; portrait plate right; four route bullets as
+  destinations; yellow tactile strip along the bottom edge.
+  FORM: Civic wayfinding, candidate 7 of 7, seed key 7bc7fdd3.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+
+<a class="skip" href="#main">Skip to content</a>
+
+<svg style="display:none" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.8 5.7 3.8 9S14.5 18.3 12 21c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3L3 10.5l7 3 3 7z"/><path d="M21 3l-11 11"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2.2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.6c0-1.34-.03-3.07-1.9-3.07-1.9 0-2.2 1.46-2.2 2.97V21h-4z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3.2l-7 8 8.2 10h-6.4l-5-6.1L4.7 21H1.5l7.5-8.6L1.2 3h6.6l4.5 5.6zm-1.1 16.1h1.8L7.7 4.8H5.8z"/></symbol>
+</svg>
+
+<header class="bar">
+    <div class="bar__inner">
+        <a class="bar__mark" href="#home">
+            <img src="assets/img/vtn-mark.svg" alt="" width="36" height="36">
+            <span>Vu Nguyen</span>
+        </a>
+
+        <button class="bar__toggle" type="button" id="navToggle" aria-expanded="false" aria-controls="navPanel">
+            <svg aria-hidden="true"><use href="#i-menu"></use></svg>
+            Menu
+        </button>
+
+        <nav class="bar__nav" id="navPanel" aria-label="Sections">
+            <ul class="bar__list">
+                <li><a class="bar__link" href="#home" style="--bullet: var(--yellow)"><span class="bar__dot"></span>Home</a></li>
+                <li><a class="bar__link" href="#project" style="--bullet: var(--red)"><span class="bar__dot"></span>Projects</a></li>
+                <li><a class="bar__link" href="#experience" data-focus="work" style="--bullet: var(--orange)"><span class="bar__dot"></span>Experience</a></li>
+                <li><a class="bar__link" href="#education" data-focus="study" style="--bullet: var(--green)"><span class="bar__dot"></span>Education</a></li>
+                <li><a class="bar__link" href="#contact" style="--bullet: var(--blue)"><span class="bar__dot"></span>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main">
+
+    <!-- ===== Station panel ===== -->
+    <section class="panel" id="home">
+        <div class="panel__grid">
+            <div>
+                <h1 class="panel__name">Vu Nguyen</h1>
+                <p class="panel__role">Database Developer&nbsp;+ Software Engineer</p>
+
+                <div class="panel__intro">
+                    <p>I build and run in-house applications and databases for a Massachusetts public-safety
+                        agency: schema, services, servers, and the interfaces on top. I have done it since 2005.
+                        On my own time I ship React apps and keep a data-science and AWS practice going.</p>
+                    <p>Master of Science in Computer Science from UMass Boston, plus the
+                        <a href="certificates/MPP_Data_Science_Certificate_Letter.pdf" target="_blank" rel="noopener">Microsoft Professional Program Data Science certificate</a>
+                        and the
+                        <a href="https://www.youracclaim.com/badges/84f067ca-cc52-4c61-966a-85c6efc58241" target="_blank" rel="noopener">AWS Certified Developer Associate certificate</a>.
+                        Vietnamese and English.</p>
+                </div>
+
+                <p class="stack__label">Works in</p>
+                <ul class="stack">
+                    <li>C#</li>
+                    <li>ASP.NET</li>
+                    <li>Java</li>
+                    <li>C / C++</li>
+                    <li>Oracle</li>
+                    <li>MS SQL Server</li>
+                    <li>4D Database</li>
+                    <li>Crystal Reports</li>
+                    <li>React</li>
+                    <li>AWS</li>
+                </ul>
+
+                <ul class="panel__destinations">
+                    <li><a class="dest" href="#project" style="--bullet: var(--red)">Projects <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+                    <li><a class="dest" href="#experience" data-focus="work" style="--bullet: var(--orange)">Experience <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+                    <li><a class="dest" href="#education" data-focus="study" style="--bullet: var(--green)">Education <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+                    <li><a class="dest" href="#contact" style="--bullet: var(--blue)">Contact <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+                </ul>
+            </div>
+
+            <!-- TO ADD YOUR PHOTO: drop a portrait crop (roughly 5:6) at
+                 assets/img/vu-nguyen.jpg, point the src below at it, change alt="" to
+                 alt="Vu Nguyen" (the empty alt is correct only while this is a
+                 placeholder carrying no information), and delete the
+                 .portrait__pending line. -->
+            <figure class="portrait">
+                <img src="assets/img/portrait-placeholder.svg" alt="" width="400" height="480">
+                <span class="portrait__pending">Photograph to follow</span>
+                <figcaption class="portrait__tag">Boston, Massachusetts</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ===== Red line: projects ===== -->
+    <section class="section" id="project" style="--bullet: var(--red)">
+        <div class="section__inner">
+            <div class="section__head">
+                <span class="bullet" aria-hidden="true">P</span>
+                <h2>Projects</h2>
+            </div>
+            <p class="section__note">Three I can point you at. Older coursework and projects live on my
+                <a href="https://www.cs.umb.edu/~vtnguyen/projects.html" target="_blank" rel="noopener">UMass Boston page</a>.</p>
+
+            <div class="stops">
+
+                <article class="stop stop--lead">
+                    <div class="stop__body">
+                        <div class="stop__plate">
+                            <svg aria-hidden="true"><use href="#i-doc"></use></svg>
+                            <h3>Loan approval models</h3>
+                        </div>
+                        <p>Loan approval is a probability problem. A bank or credit provider scores an application
+                            against the chance it gets repaid, and the factors that set that probability interact in
+                            ways no single rule captures.</p>
+                        <p>I built statistical models to predict the outcome for individual applications, and entered
+                            them against the field. This was the capstone for the Microsoft Professional Program in
+                            Data Science.</p>
+                        <ul class="stop__tech">
+                            <li>R</li>
+                            <li>Statistical modelling</li>
+                            <li>Predictive analytics</li>
+                            <li>Azure ML</li>
+                        </ul>
+                        <a class="action" href="https://gallery.azure.ai/Competition/1ad7a6df99794816b9bc071e27d46b10#leaderboardButton" target="_blank" rel="noopener" style="--bullet: var(--red)">
+                            View the competition <svg aria-hidden="true"><use href="#i-ext"></use></svg>
+                        </a>
+                    </div>
+                    <figure class="stop__shot">
+                        <img src="assets/img/project-data-science.jpg" alt="Microsoft Professional Program in Data Science on edX" width="800" height="500" loading="lazy">
+                    </figure>
+                </article>
+
+                <article class="stop">
+                    <div class="stop__body">
+                        <div class="stop__plate">
+                            <svg aria-hidden="true"><use href="#i-github"></use></svg>
+                            <h3>GitHub Profile Finder</h3>
+                        </div>
+                        <p>A React app that looks up GitHub accounts through the GitHub API and lays out what comes
+                            back: search, fetch, render the profile detail.</p>
+                        <ul class="stop__tech">
+                            <li>React</li>
+                            <li>GitHub API</li>
+                            <li>Vercel</li>
+                        </ul>
+                        <a class="action" href="https://github-finder-app-vunguyen.vercel.app" target="_blank" rel="noopener" style="--bullet: var(--red)">
+                            Open the app <svg aria-hidden="true"><use href="#i-ext"></use></svg>
+                        </a>
+                    </div>
+                    <figure class="stop__shot">
+                        <img src="assets/img/github-finder.jpg" alt="GitHub Profile Finder showing a searched profile" width="1400" height="687" loading="lazy">
+                    </figure>
+                </article>
+
+                <article class="stop">
+                    <div class="stop__body">
+                        <div class="stop__plate">
+                            <svg aria-hidden="true"><use href="#i-globe"></use></svg>
+                            <h3>Movie Finder</h3>
+                        </div>
+                        <p>A React app for searching films and pulling detail from the TMDB API. I built it in Codux,
+                            a visual IDE for React where edits on the canvas and edits in the code stay in sync both
+                            directions.</p>
+                        <ul class="stop__tech">
+                            <li>React</li>
+                            <li>TMDB API</li>
+                            <li>Codux</li>
+                            <li>Vercel</li>
+                        </ul>
+                        <a class="action" href="https://movie-finder-app-vunguyen.vercel.app" target="_blank" rel="noopener" style="--bullet: var(--red)">
+                            Open the app <svg aria-hidden="true"><use href="#i-ext"></use></svg>
+                        </a>
+                    </div>
+                    <figure class="stop__shot">
+                        <img src="assets/img/movie-finder.jpg" alt="Movie Finder showing search results from TMDB" width="1400" height="693" loading="lazy">
+                    </figure>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== The line: work and study on one corridor ===== -->
+    <section class="section line-section" id="experience">
+        <div class="section__inner">
+            <span class="anchor" id="education" aria-hidden="true"></span>
+            <div class="line-head">
+                <div>
+                    <div class="line-head__title">
+                        <span class="line-head__bullets" aria-hidden="true">
+                            <span class="bullet" style="--bullet: var(--orange)"></span>
+                            <span class="bullet" style="--bullet: var(--green)"></span>
+                        </span>
+                        <h2>The line</h2>
+                    </div>
+                    <p class="line-head__sub">Experience and education, one corridor</p>
+                </div>
+                <div class="line-legend" role="group" aria-label="Trace one line">
+                    <button class="line-legend__btn" type="button" data-focus="all" aria-pressed="true" style="--bullet: var(--ink)">Both</button>
+                    <button class="line-legend__btn" type="button" data-focus="work" aria-pressed="false" style="--bullet: var(--orange)">Experience</button>
+                    <button class="line-legend__btn" type="button" data-focus="study" aria-pressed="false" style="--bullet: var(--green)">Education</button>
+                </div>
+            </div>
+            <p class="section__note" style="--bullet: var(--orange)">Two tracks, one corridor, 1994 to now. Orange stations are jobs, green are degrees and
+                certificates. The lines meet in 2005, where the degree changed discipline and the software career
+                starts. Full history on
+                <a href="https://www.linkedin.com/in/vu-nguyen-054221160" target="_blank" rel="noopener">LinkedIn</a>
+                and my <a href="https://www.cs.umb.edu/~vtnguyen/index.html" target="_blank" rel="noopener">UMass Boston page</a>.</p>
+
+            <div class="line" data-focus="all">
+                <span class="line__track line__track--study" aria-hidden="true"></span>
+                <span class="line__track line__track--work" aria-hidden="true"></span>
+
+                <ol class="stations">
+
+                    <li class="station station--study">
+                        <span class="station__dot" aria-hidden="true"></span>
+                        <span class="station__tick" aria-hidden="true">1994</span>
+                        <div class="station__panel">
+                            <span class="station__year">1994</span>
+                            <h3>Bachelor of Science</h3>
+                            <p class="station__org">Ho Chi Minh City University of Technology — Vietnam</p>
+                            <div class="station__body"><p>Major in Civil Engineering Technology.</p></div>
+                        </div>
+                    </li>
+
+                    <li class="station station--study">
+                        <span class="station__dot" aria-hidden="true"></span>
+                        <span class="station__tick" aria-hidden="true">1999</span>
+                        <div class="station__panel">
+                            <span class="station__year">1999</span>
+                            <h3>Bachelor of Science, Summa Cum Laude</h3>
+                            <p class="station__org">Wentworth Institute of Technology — Boston, MA</p>
+                            <div class="station__body"><p>Major in Civil Engineering Technology.</p></div>
+                        </div>
+                    </li>
+
+                    <li class="station station--study">
+                        <span class="station__dot" aria-hidden="true"></span>
+                        <span class="station__tick" aria-hidden="true">2005</span>
+                        <div class="station__panel">
+                            <span class="station__year">2005</span>
+                            <h3>Master of Science</h3>
+                            <p class="station__org">University of Massachusetts — Boston, MA</p>
+                            <div class="station__body"><p>Major in Computer Science. The switch from civil engineering to software.</p></div>
+                        </div>
+                    </li>
+
+                    <li class="interchange">
+                        <span class="interchange__year">2005</span>
+                        <p class="interchange__text">Interchange &middot; civil engineering to software</p>
+                    </li>
+
+                    <li class="station station--work">
+                        <span class="station__dot" aria-hidden="true"></span>
+                        <span class="station__tick" aria-hidden="true">2005</span>
+                        <div class="station__panel">
+                            <span class="station__year">Dec 2005 – present</span>
+                            <h3>Sr. Programmer / Analyst</h3>
+                            <p class="station__org">Executive Office of Public Safety and Security</p>
+                            <div class="station__body">
+                                <p>In-house development and application support.</p>
+                                <ul class="station__list">
+                                    <li>Design, build and deploy software across web services, Java and J2EE, SOA and open-source stacks: SQL, SQL*Plus, SQL Server, Oracle, JDBC, ODBC, XML and XML Schema, XSLT, SOAP, WSDL, UDDI, Apache technologies, Systinet WASP, Tomcat, .NET, HTML and JavaScript, on every version of Windows.</li>
+                                    <li>Administer the agency's RDBMS and SQL Server instances: design, maintenance and repair.</li>
+                                    <li>Move the legacy servers onto those platforms.</li>
+                                    <li>Write and test the disaster-recovery plan for every server the agency runs.</li>
+                                    <li>Research, acquire and maintain the tooling for project management, configuration management, modelling, testing and application development.</li>
+                                    <li>Act as liaison to operations and support staff: find the problem areas, then fix them.</li>
+                                </ul>
+                                <p class="station__now">Current post</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="station station--work">
+                        <span class="station__dot" aria-hidden="true"></span>
+                        <span class="station__tick" aria-hidden="true">2011</span>
+                        <div class="station__panel">
+                            <span class="station__year">Oct 2011 – Jun 2012</span>
+                            <h3>Application Developer</h3>
+                            <p class="station__org">Bunker Hill Community College</p>
+                            <div class="station__body">
+                                <p>In-house development and application support.</p>
+                                <ul class="station__list">
+                                    <li>Run the college SharePoint portal as Site Collection Administrator.</li>
+                                    <li>Integrate web software and services with Datatel Colleague and the other systems College Technology Services supported.</li>
+                                    <li>Maintain existing web applications for integration, data integrity, standards compliance, security and relevance.</li>
+                                    <li>Sit in the planning and requirements meetings so what got built met the requirements.</li>
+                                    <li>Build and integrate web applications to standard, in the right technology for the job.</li>
+                                    <li>Extend SharePoint applications onto new technology.</li>
+                                    <li>Write and maintain end-user and technical documentation.</li>
+                                    <li>Write and maintain PowerShell to manage the SharePoint servers.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="station station--work">
+                        <span class="station__dot" aria-hidden="true"></span>
+                        <span class="station__tick" aria-hidden="true">2012</span>
+                        <div class="station__panel">
+                            <span class="station__year">Jun 2012 – Jun 2014</span>
+                            <h3>Sr. Programmer / Analyst</h3>
+                            <p class="station__org">Wentworth Institute of Technology</p>
+                            <div class="station__body">
+                                <p>In-house development and application support.</p>
+                                <ul class="station__list">
+                                    <li>Model, test and implement the SunGard Banner 8.x to 9 upgrade on Project Horizon, under Groovy and Grails.</li>
+                                    <li>Build and integrate web applications to standard in Spring, Groovy and Grails, ZK and Java.</li>
+                                    <li>Research, acquire and maintain the tooling for project management, configuration management, modelling, testing and application development.</li>
+                                    <li>Set the strategy and coding approach for mobile apps on the SunGard Mobile Connect server APIs, tuned for speed.</li>
+                                    <li>Administer SQL Server: design, maintenance and repair.</li>
+                                    <li>Act as liaison to operations and support staff: find the problem areas, then fix them.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="station station--study">
+                        <span class="station__dot" aria-hidden="true"></span>
+                        <div class="station__panel">
+                            <span class="station__year">Certificates</span>
+                            <h3>edX, online learning</h3>
+                            <p class="station__org">Online coursework</p>
+                            <div class="station__body">
+                                <div class="station__certs">
+                                    <div class="station__cert">
+                                        <strong>Microsoft Professional Program Data Science</strong>
+                                        <a href="certificates/MPP_Data_Science_Certificate_Letter.pdf" target="_blank" rel="noopener">Certificate (PDF)</a>
+                                    </div>
+                                    <div class="station__cert">
+                                        <strong>AWS Certified Developer Associate</strong>
+                                        <a href="https://www.youracclaim.com/badges/84f067ca-cc52-4c61-966a-85c6efc58241" target="_blank" rel="noopener">Verify badge</a>
+                                    </div>
+                                    <div class="station__cert">
+                                        <strong>Microsoft SQL Database Development</strong>
+                                        <span>No public artifact</span>
+                                    </div>
+                                    <div class="station__cert">
+                                        <strong>MongoDB for Java Developer</strong>
+                                        <span>No public artifact</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Blue line: contact ===== -->
+    <section class="section contact" id="contact" style="--bullet: var(--blue)">
+        <div class="section__inner">
+            <div class="section__head">
+                <span class="bullet" aria-hidden="true">C</span>
+                <h2>Contact</h2>
+            </div>
+
+            <div class="contact__grid">
+                <form class="form" data-bss-recipient="82441de466962aee227520e32a989391" data-bss-subject="Message from Vu Nguyen's Website">
+                    <div class="field">
+                        <label for="f-name">Your name</label>
+                        <input id="f-name" type="text" name="Full Name" placeholder="Jane Doe" required autocomplete="name">
+                        <span class="field__error">Enter your name so I know who I am replying to.</span>
+                    </div>
+                    <div class="field">
+                        <label for="f-email">Email address</label>
+                        <input id="f-email" type="email" name="Email" placeholder="jane@example.com" required autocomplete="email">
+                        <span class="field__error">That address is not complete. I need it to reply.</span>
+                    </div>
+                    <div class="field">
+                        <label for="f-message">Message</label>
+                        <textarea id="f-message" name="message" placeholder="What are you working on?" rows="8" required minlength="10" maxlength="500"></textarea>
+                        <span class="field__error">Ten characters minimum, five hundred maximum.</span>
+                    </div>
+                    <div>
+                        <button class="action" type="submit" style="--bullet: var(--yellow)">
+                            Send message <svg aria-hidden="true"><use href="#i-send"></use></svg>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="contact__aside">
+                    <div class="direct">
+                        <h3>Or just email me</h3>
+                        <p>The form goes to the same place. If you would rather keep your own copy of the thread:</p>
+                        <a class="mail" href="mailto:nguyentranvu0104@gmail.com">nguyentranvu0104@gmail.com</a>
+                    </div>
+
+                    <ul class="profiles">
+                        <li><a href="https://github.com/vunguyen0104" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-github"></use></svg> GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/vu-nguyen-054221160" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-linkedin"></use></svg> LinkedIn</a></li>
+                        <li><a href="https://twitter.com/@vhml" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-x"></use></svg> Twitter</a></li>
+                        <li><a href="https://www.cs.umb.edu/~vtnguyen/index.html" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-globe"></use></svg> UMass Boston page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="foot">
+    <div class="foot__inner">
+        <div class="foot__map">
+            <div class="foot__col">
+                <h3>Destinations</h3>
+                <ul>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="foot__col">
+                <h3>Elsewhere</h3>
+                <ul>
+                    <li><a href="https://github.com/vunguyen0104" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/vu-nguyen-054221160" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://www.cs.umb.edu/~vtnguyen/index.html" target="_blank" rel="noopener">UMass Boston</a></li>
+                    <li><a href="mailto:nguyentranvu0104@gmail.com">Email</a></li>
+                </ul>
+            </div>
+            <div class="foot__col">
+                <h3>Credentials</h3>
+                <ul>
+                    <li><a href="certificates/MPP_Data_Science_Certificate_Letter.pdf" target="_blank" rel="noopener">MPP Data Science</a></li>
+                    <li><a href="https://www.youracclaim.com/badges/84f067ca-cc52-4c61-966a-85c6efc58241" target="_blank" rel="noopener">AWS Certified Developer</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <div id="home" class="p-5 mb-4 round-3" style="background: rgb(47,48,97);text-align: center;color: rgb(246,255,247);">
-        <div class="container py-5">
-            <h1 data-aos="fade-down" data-aos-duration="1300" data-aos-once="true">Vu Nguyen</h1>
-            <h2 data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Database Developer + Software Engineer</h2>
-            <p data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">Hard-working Software Engineer with education and experience designing software solutions, especially in databases and automating processes. Technically proficient in C#, ASP.NET, Java, C/C++, Oracle, MS SQL Server, 4D Database and Crystal Report. Superior communication and interpersonal skills, including the ability to make difficult subjects clear. Master of Science in Computer Science, plus&nbsp;<a href="certificates/MPP_Data_Science_Certificate_Letter.pdf" target="_blank">Microsoft Professional Program Data Science Certificate</a>&nbsp;and <a href="https://www.youracclaim.com/badges/84f067ca-cc52-4c61-966a-85c6efc58241" target="_blank">AWS Certified Developer Associate Certificate</a>. Fluent in Vietnamese and English.</p>
+
+        <div class="foot__end">
+            <span class="foot__wordmark">vunguyen.io</span>
+            <span class="foot__meta">Vu Nguyen &copy; 2026 &middot; Boston, Massachusetts</span>
         </div>
     </div>
-    <section id="project" style="background: #b9d5b9;margin-top: -24px;">
-        <div class="container mb-4" style="padding-top: 70px;">
-            <div class="row">
-                <div class="col">
-                    <h2>Featured Projects</h2>
-                    <p>View selected projects below. More information can be found at&nbsp;<i class="fab fa-wordpress-simple"></i>&nbsp;<a href="https://www.cs.umb.edu/~vtnguyen/projects.html" target="_blank">UMass Boston</a>.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container" style="padding-bottom: 25px;border-bottom: 1px dashed var(--bs-gray-800) ;">
-            <div class="row">
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"><img class="img-fluid pb-3" src="assets/img/project-data-science.jpg" alt="eDx &amp; Microsoft Professional Program in Data Science"></div>
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-                    <h4>Microsoft Data Science Project&nbsp;<i class="fab fa-r-project"></i></h4>
-                    <p style="text-align: justify;">This initiative pertains to loan-associated data. Upon the submission of a loan application by a client, financial institutions, inclusive of banks and alternative credit providers, employ intricate statistical algorithms to ascertain the viability of approving the loan, anchored on the prospective probability of loan reimbursement. The parameters contributing to the establishment of this probability exhibit considerable complexity. Therefore, a thorough implementation of statistical analysis and predictive modeling is indispensable to forecast the unique outcome for each individual scenario.</p><a class="btn btn-primary" role="button" target="_blank" href="https://gallery.azure.ai/Competition/1ad7a6df99794816b9bc071e27d46b10#leaderboardButton" style="background: #2f3061;">View Project Details</a>
-                </div>
-            </div>
-        </div>
-        <!--
-        <div class="container mt-4" style="padding-bottom: 25px;border-bottom: 1px dashed var(--bs-gray-800) ;">
-            <div class="row">
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"><img class="img-fluid pb-3" src="assets/img/project-rmv-service-wait-time.jpg" alt="Masschusetts RMV Service Wait-Time"></div>
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-                    <h4>Masschusetts RMV Service Wait-Time<i class="fab fa-servicestack"></i></h4>
-                    <p style="text-align: justify;">ServiceWaitTime is a great simple mobile application to get the licensing and registration wait-times at Massachusetts RMV local branches. This application uses nearly real time feed from Mass RMV API for developers. It is not endorsed or a product of Mass RMV.</p><a class="btn btn-primary" role="button" target="_blank" href="https://www.cs.umb.edu/~vtnguyen/projects.html" style="background: #2f3061;">View Project Details</a>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-4" style="padding-bottom: 25px;">
-            <div class="row" style="padding-bottom: 25px;">
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"><img class="img-fluid pb-3" src="assets/img/project-image-finder.jpg" alt="Images Finder"></div>
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-                    <h4>Images Finder&nbsp;<i class="fas fa-search"></i></h4>
-                    <p style="text-align: justify;">ImagesFinder is a simple and user friendly mobile application that allows users to search and share photos.</p><a class="btn btn-primary" role="button" target="_blank" href="https://www.cs.umb.edu/~vtnguyen/projects.html" style="background: #2f3061;">View Project Details</a>
-                </div>
-            </div>
-        </div>
-        -->
-        <div class="container mt-4" style="padding-bottom: 25px;border-bottom: 1px dashed var(--bs-gray-800) ;">
-            <div class="row">
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"><img class="img-fluid pb-3" src="assets/img/github-finder.png" alt="Github Profile Finder"></div>
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-                    <h4>Github Profile Finder&nbsp;<i class="fas fa-search"></i></h4>
-                    <p style="text-align: justify;">This is a React-based application designed to retrieve and display GitHub profile details by leveraging the capabilities of the GitHub API. The application is proficient in conducting searches for GitHub profiles, subsequently providing a comprehensive display of the relevant profile details.</p><a class="btn btn-primary" role="button" target="_blank" href="https://github-finder-app-vunguyen.vercel.app" style="background: #2f3061;">View Project Details</a>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-4" style="padding-bottom: 25px;">
-            <div class="row" style="padding-bottom: 25px;">
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"><img class="img-fluid pb-3" src="assets/img/movie-finder.png" alt="Movie Finder"></div>
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-                    <h4>Movie Finder&nbsp;<i class="fas fa-search"></i></h4>
-                    <p style="text-align: justify;">This project involves the development of a sophisticated React application purposed for conducting movie searches and presenting detailed information obtained via the Movie Database API from TMDB. Furthermore, this project incorporates Codux, a visual Integrated Development Environment (IDE) designed explicitly for React. Codux serves as a comprehensive visual development ecosystem that allows instantaneous reflection of any visual alterations within the codebase and vice versa. It proves instrumental whether you're initiating a new application, crafting components, or editing an existing project.</p><a class="btn btn-primary" role="button" target="_blank" href="https://movie-finder-app-vunguyen.vercel.app" style="background: #2f3061;">View Project Details</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="experience" style="background: #a1c6d7;margin-top: -24px;">
-        <div class="container mb-4" style="padding-top: 70px;">
-            <div class="row">
-                <div class="col">
-                    <h2>Work Experience</h2>
-                    <p>See my complete work history on&nbsp;<i class="fab fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/vu-nguyen-054221160" target="_blank">LinkedIn</a>.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container" style="border-bottom: 1px dashed var(--bs-gray-800) ;">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4>Sr. Programmer / Analyst</h4>
-                    <p style="font-weight: bold;font-style: italic;">Executive Office of Public Safety and Security</p>
-                    <p>December 2005 - Present</p>
-                </div>
-                <div class="col-md-8">
-                    <p>Responsible for in-house developement and support applications.</p>
-                    <p>Key contributions:</p>
-                    <ul>
-                        <li>Design, develop and implement software utilizing web services, Java, SOA architecture, open source technologies, J2EE, SQL, SQL-plus, SQL Server, Oracle, JDBC, ODBC, XML, Apache Group Technologies, Systinet Wasp server, Tomcat, XML Schemas, Java scripting, XML style sheets, all versions of Windows, .NET, HTML, SOAP, IP, DNS, HTTP, WSDL, UDDI and similar products and architectures as required.</li>
-                        <li>Administer the various RDBMS and SQL Servers including design, maintenance and repair.</li>
-                        <li>Transition the legacy servers to the above platforms.</li>
-                        <li>Develop and test a disaster recovery plan for all the agency’s servers.</li>
-                        <li>Research, acquire and maintain tool to provide project management, configuration management, modeling and testing, and application development.</li>
-                        <li>Act as a liaison to operations and support staffs to identify problem areas and provide remedial action.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-4" style="border-bottom: 1px dashed var(--bs-gray-800) ;">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4>Sr. Programmer / Analyst</h4>
-                    <p style="font-weight: bold;font-style: italic;">Wentworth Institute of Technology</p>
-                    <p>June 2012 - June 2014</p>
-                </div>
-                <div class="col-md-8">
-                    <p>Responsible for in-house developement and support applications.</p>
-                    <p>Key contributions:</p>
-                    <ul>
-                        <li>Participate in SunGard Banner Project Horizon including model, test and implement Banner from 8.x to 9 under Groovy and Grail web development framework.</li>
-                        <li>Develop or integrate web applications in compliance with standards using appropriate&nbsp;technologies and languages such Spring, Groovy and Grails, ZK and Java.</li>
-                        <li>Research, acquire and maintain tool to provide project management, configuration management,&nbsp;modeling and testing, and application development.</li>
-                        <li>Identify strategy and coding techniques to develop Mobile Applications utilizing SunGard Mobile Connect server APIs to achieve fast-performance mobile applications.</li>
-                        <li>Administer SQL Servers including design, maintenance and repair.</li>
-                        <li>Act as a liaison to operations and support staffs to identify problem areas and provide remedial action.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4>Application Developer</h4>
-                    <p style="font-weight: bold;font-style: italic;">Bunker Hill Community College</p>
-                    <p>October 2011 - June 2012</p>
-                </div>
-                <div class="col-md-8">
-                    <p>Responsible for in-house developement and support applications.</p>
-                    <p>Key contributions:</p>
-                    <ul style="padding-bottom: 25px;">
-                        <li>Administer College SharePoint Portal as Site Collection Administrator.</li>
-                        <li>Integrate web software and services with Datatel Colleague or other information systems&nbsp;supported by the College Technology Services.</li>
-                        <li>Maintain and support existing web applications to ensure software integration, data integrity, standard compliance, security, and information relevance.</li>
-                        <li>Participate in planning and project requirements meetings to ensure web application development will meet requirements and standards.</li>
-                        <li>Develop or integrate web applications in compliance with standards using appropriate technologies and languages.</li>
-                        <li>Enhance SharePoint applications for new or existing technology.</li>
-                        <li>Create and maintain end user and technical documentation.</li>
-                        <li>Write and maintain PowerShell scripts to manage SharePoint servers.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="education" style="background: url(&quot;assets/img/joanna-kosinska-unsplash.jpg&quot;) top right / cover no-repeat;margin-top: -24px;">
-        <div class="container mb-4" style="padding-top: 70px;">
-            <div class="row">
-                <div class="col">
-                    <h2>Education</h2>
-                    <p>See my complete course works at&nbsp;<i class="fab fa-wordpress-simple"></i>&nbsp;<a href="https://www.cs.umb.edu/~vtnguyen/index.html" target="_blank">Umass Boston</a>.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row mb-3">
-                <div class="col">
-                    <h4>eDx, Online Learning</h4>
-                    <p style="font-weight: bold;font-style: italic;"><i class="fas fa-certificate"></i>&nbsp;Certificates</p>
-                    <p>Microsoft Professional Program Data Science</p>
-                    <p>AWS Certified Developer Associate</p>
-                    <p>Microsoft SQL Database Development</p>
-                    <p>MongoDB for Java Developer</p>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col">
-                    <h4>University of Massachusetts - Boston, MA</h4>
-                    <p style="font-weight: bold;font-style: italic;"><i class="fas fa-graduation-cap"></i>&nbsp;Master of Science, 2005</p>
-                    <p>Major in Computer Science</p>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col">
-                    <h4>Wentworth Institute of Technology - Boston, MA</h4>
-                    <p style="font-weight: bold;font-style: italic;"><i class="fas fa-graduation-cap"></i>&nbsp;Bachelor of Science with Summa Cum Laude, 1999</p>
-                    <p>Major in Civil Engineering Technology</p>
-                </div>
-            </div>
-            <div class="row pb-4">
-                <div class="col">
-                    <h4>Ho Chi Minh City University of Technology - Ho Chi Minh, Vietnam</h4>
-                    <p style="font-weight: bold;font-style: italic;"><i class="fas fa-graduation-cap"></i>&nbsp;Bachelor of Science, 1994</p>
-                    <p>Major in Civil Engineering Technology</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="contact-clean" style="padding-top: 35px;padding-bottom: 35px;background: #f7fff7;">
-        <form data-aos="zoom-out-up" data-aos-duration="2000" data-aos-once="true" data-bss-recipient="82441de466962aee227520e32a989391" data-bss-subject="Message from Vu Nguyen's Website">
-            <h2 class="text-center">Message Form</h2>
-            <div class="mb-3"><input class="form-control" type="text" name="Full Name" placeholder="Name" required=""></div>
-            <div class="mb-3"><input class="form-control is-invalid" type="email" name="Email" placeholder="Email" required=""><small class="form-text text-danger">Please enter a correct email address.</small></div>
-            <div class="mb-3"><textarea class="form-control" name="message" placeholder="Message" rows="14" required="" minlength="10" maxlength="500"></textarea></div>
-            <div class="mb-3"><button class="btn btn-primary" type="submit" style="background: #2f3061;">Send message&nbsp;<i class="fa fa-send-o"></i></button></div>
-        </form>
-    </section>
-    <footer class="footer-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><a href="https://www.cs.umb.edu/~vtnguyen/index.html" target="_blank">Website</a></li>
-                        <li><a href="mailto:nguyentranvu0104@gmail.com">Email</a></li>
-                        <li><a href="https://www.cs.umb.edu/" target="_blank">Umass Boston</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="#project">Project</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#education">Education</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 item text">
-                    <h3>Vu Nguyen</h3>
-                    <p>Database Developer and Software Engineer</p>
-                </div>
-                <div class="col item social"><a href="mailto:nguyentranvu0104@gmail.com"><i class="icon ion-email"></i></a><a href="https://twitter.com/@vhml" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://www.linkedin.com/in/vu-nguyen-054221160" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/vunguyen0104" target="_blank"><i class="fab fa-github-square"></i></a></div>
-            </div>
-            <p class="copyright">Vu Nguyen © 2025</p>
-        </div>
-        <!-- Chatbot Button -->
-        <!-- <button id="chatbotButton">Ask About My Site</button> -->
+</footer>
 
-        <!-- Chatbot Popup -->
-        <div id="chatbotPopup" class="chatbot-popup">
-        <div class="chatbot-content">
-            <span class="close">&times;</span>
-            <iframe src="https://copilotstudio.microsoft.com/environments/bee2ee79-3df0-e034-b179-2f4e845ff204/bots/crff7_myPersonalWebsiteBotHelper/webchat?__version__=2" frameborder="0" style="width: 100%; height: 500px;"></iframe>
-        </div>
-        </div>
-
-    </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/smart-forms.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/javascript.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="assets/js/smart-forms.min.js"></script>
+<script src="assets/js/site.js"></script>
 </body>
 
 </html>

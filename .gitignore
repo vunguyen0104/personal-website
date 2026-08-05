@@ -1,0 +1,6 @@
+# Transient decision-page logs from the design tooling
+.impeccable/questions/
+
+# OS cruft
+.DS_Store
+Thumbs.db

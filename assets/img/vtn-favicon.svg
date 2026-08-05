@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VTN">
+  <title>VTN</title>
+
+  <!-- Favicon variant of vtn-mark.svg. Same roundel, single letter: three
+       letterforms turn to mush at 16px. Outlined path, no <text>. -->
+
+  <g fill="none" stroke-width="7" stroke-linecap="butt">
+    <path d="M33.46 4.04 A28 28 0 0 1 59.96 30.54" stroke="#C8102E"/>
+    <path d="M59.96 33.46 A28 28 0 0 1 33.46 59.96" stroke="#D96D00"/>
+    <path d="M30.54 59.96 A28 28 0 0 1 4.04 33.46" stroke="#00693E"/>
+    <path d="M4.04 30.54 A28 28 0 0 1 30.54 4.04" stroke="#1268C3"/>
+  </g>
+
+  <circle cx="32" cy="32" r="24.5" fill="#F3F2EE"/>
+
+  <path fill="#0D1B2A" d="M23.5 20 H29.1 L32 37.5 L34.9 20 H40.5 L34.6 44 H29.4 Z"/>
+</svg>

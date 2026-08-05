@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-05T00:00:00Z",
+  "title": "Design System: vunguyen.io — Transit Authority",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Enamel Navy",
+        "canonical": "oklch(22% 0.035 250)",
+        "tonalRamp": ["oklch(15% 0.028 250)", "oklch(22% 0.035 250)", "oklch(30% 0.042 250)", "oklch(40% 0.046 250)", "oklch(52% 0.044 250)", "oklch(65% 0.036 250)", "oklch(80% 0.024 250)", "oklch(95% 0.010 250)"]
+      },
+      "ink-raised": {
+        "role": "primary",
+        "displayName": "Raised Navy",
+        "canonical": "oklch(27% 0.040 250)",
+        "tonalRamp": ["oklch(15% 0.030 250)", "oklch(27% 0.040 250)", "oklch(36% 0.046 250)", "oklch(45% 0.048 250)", "oklch(56% 0.044 250)", "oklch(68% 0.034 250)", "oklch(82% 0.022 250)", "oklch(95% 0.010 250)"]
+      },
+      "ink-rule": {
+        "role": "neutral",
+        "displayName": "Rule Navy",
+        "canonical": "oklch(36% 0.045 250)",
+        "tonalRamp": ["oklch(15% 0.030 250)", "oklch(25% 0.038 250)", "oklch(36% 0.045 250)", "oklch(47% 0.048 250)", "oklch(58% 0.044 250)", "oklch(70% 0.034 250)", "oklch(83% 0.022 250)", "oklch(95% 0.010 250)"]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Concrete Ground",
+        "canonical": "oklch(91.5% 0.006 100)",
+        "tonalRamp": ["oklch(15% 0.006 100)", "oklch(27% 0.006 100)", "oklch(39% 0.007 100)", "oklch(51% 0.007 100)", "oklch(64% 0.007 100)", "oklch(76% 0.007 100)", "oklch(91.5% 0.006 100)", "oklch(97% 0.004 100)"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Timetable Paper",
+        "canonical": "oklch(95.5% 0.005 100)",
+        "tonalRamp": ["oklch(15% 0.005 100)", "oklch(27% 0.005 100)", "oklch(39% 0.006 100)", "oklch(51% 0.006 100)", "oklch(64% 0.006 100)", "oklch(77% 0.006 100)", "oklch(89% 0.005 100)", "oklch(95.5% 0.005 100)"]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Signal Red",
+        "canonical": "oklch(48% 0.200 26)",
+        "tonalRamp": ["oklch(20% 0.090 26)", "oklch(28% 0.130 26)", "oklch(37% 0.170 26)", "oklch(48% 0.200 26)", "oklch(59% 0.185 26)", "oklch(71% 0.140 26)", "oklch(83% 0.085 26)", "oklch(95% 0.030 26)"]
+      },
+      "orange": {
+        "role": "secondary",
+        "displayName": "Signal Orange",
+        "canonical": "oklch(62% 0.160 55)",
+        "tonalRamp": ["oklch(22% 0.070 55)", "oklch(32% 0.100 55)", "oklch(43% 0.130 55)", "oklch(52% 0.150 55)", "oklch(62% 0.160 55)", "oklch(74% 0.130 55)", "oklch(85% 0.085 55)", "oklch(95% 0.035 55)"]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Signal Green",
+        "canonical": "oklch(42% 0.110 160)",
+        "tonalRamp": ["oklch(18% 0.050 160)", "oklch(27% 0.075 160)", "oklch(35% 0.095 160)", "oklch(42% 0.110 160)", "oklch(54% 0.115 160)", "oklch(67% 0.100 160)", "oklch(81% 0.070 160)", "oklch(95% 0.025 160)"]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Signal Blue",
+        "canonical": "oklch(50% 0.160 255)",
+        "tonalRamp": ["oklch(20% 0.070 255)", "oklch(29% 0.100 255)", "oklch(39% 0.135 255)", "oklch(50% 0.160 255)", "oklch(61% 0.150 255)", "oklch(72% 0.115 255)", "oklch(84% 0.070 255)", "oklch(95% 0.025 255)"]
+      },
+      "yellow": {
+        "role": "tertiary",
+        "displayName": "Tactile Yellow",
+        "canonical": "oklch(84% 0.160 85)",
+        "tonalRamp": ["oklch(25% 0.070 85)", "oklch(36% 0.095 85)", "oklch(47% 0.120 85)", "oklch(58% 0.140 85)", "oklch(69% 0.155 85)", "oklch(84% 0.160 85)", "oklch(91% 0.110 85)", "oklch(96% 0.050 85)"]
+      },
+      "orange-ink": {
+        "role": "secondary",
+        "displayName": "Deepened Orange",
+        "canonical": "oklch(45% 0.110 55)",
+        "tonalRamp": ["oklch(20% 0.060 55)", "oklch(29% 0.085 55)", "oklch(37% 0.100 55)", "oklch(45% 0.110 55)", "oklch(57% 0.120 55)", "oklch(70% 0.105 55)", "oklch(83% 0.070 55)", "oklch(95% 0.028 55)"]
+      },
+      "ink-body": {
+        "role": "neutral",
+        "displayName": "Body Ink",
+        "canonical": "oklch(35% 0.025 250)",
+        "tonalRamp": ["oklch(15% 0.020 250)", "oklch(25% 0.024 250)", "oklch(35% 0.025 250)", "oklch(46% 0.026 250)", "oklch(58% 0.024 250)", "oklch(70% 0.020 250)", "oklch(83% 0.014 250)", "oklch(95% 0.006 250)"]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "oklch(45% 0.024 250)",
+        "tonalRamp": ["oklch(15% 0.018 250)", "oklch(26% 0.022 250)", "oklch(36% 0.024 250)", "oklch(45% 0.024 250)", "oklch(58% 0.023 250)", "oklch(71% 0.018 250)", "oklch(84% 0.012 250)", "oklch(95% 0.006 250)"]
+      },
+      "panel-body": {
+        "role": "neutral",
+        "displayName": "Panel Body",
+        "canonical": "oklch(89% 0.014 250)",
+        "tonalRamp": ["oklch(15% 0.014 250)", "oklch(27% 0.016 250)", "oklch(39% 0.018 250)", "oklch(51% 0.018 250)", "oklch(64% 0.017 250)", "oklch(77% 0.016 250)", "oklch(89% 0.014 250)", "oklch(96% 0.008 250)"]
+      },
+      "panel-muted": {
+        "role": "neutral",
+        "displayName": "Panel Muted",
+        "canonical": "oklch(69% 0.026 250)",
+        "tonalRamp": ["oklch(15% 0.018 250)", "oklch(27% 0.022 250)", "oklch(39% 0.026 250)", "oklch(51% 0.028 250)", "oklch(69% 0.026 250)", "oklch(79% 0.020 250)", "oklch(88% 0.014 250)", "oklch(95% 0.007 250)"]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(78% 0.005 230)",
+        "tonalRamp": ["oklch(15% 0.005 230)", "oklch(27% 0.005 230)", "oklch(39% 0.006 230)", "oklch(51% 0.006 230)", "oklch(65% 0.006 230)", "oklch(78% 0.005 230)", "oklch(88% 0.004 230)", "oklch(95% 0.003 230)"]
+      },
+      "alert": {
+        "role": "tertiary",
+        "displayName": "Alert Coral",
+        "canonical": "oklch(74% 0.120 25)",
+        "tonalRamp": ["oklch(24% 0.070 25)", "oklch(34% 0.095 25)", "oklch(45% 0.120 25)", "oklch(56% 0.135 25)", "oklch(65% 0.130 25)", "oklch(74% 0.120 25)", "oklch(85% 0.075 25)", "oklch(95% 0.028 25)"]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Sign White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(64% 0 0)", "oklch(77% 0 0)", "oklch(90% 0 0)", "oklch(100% 0 0)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Panel Name", "purpose": "The name on the hero panel and nothing else. Archivo at its widest (wdth 122), weight 900, uppercase." },
+      "headline": { "displayName": "Section Head", "purpose": "Section headings and the footer wordmark. Archivo wdth 118, uppercase, negative tracking." },
+      "title": { "displayName": "Plate Title", "purpose": "Station panel headings (wdth 108) and project title plates / direct-contact heading (wdth 112). Uppercase." },
+      "body": { "displayName": "Running Prose", "purpose": "All sentences. Archivo unexpanded at wdth 100, capped at the 58ch measure." },
+      "label": { "displayName": "Signage Label", "purpose": "Barlow Condensed uppercase at 0.14em. Nav, buttons, chips, field labels, sub-legends, footer heads, interchange text." },
+      "data": { "displayName": "Timetable Data", "purpose": "Barlow Condensed at weight 700 / 0.1em. Year chips, the interchange year, the portrait tag — the numeral voice." }
+    },
+    "shadows": [
+      { "name": "lift", "value": "0 14px 34px -20px rgba(13, 27, 42, 0.55)", "purpose": "Standard plate-on-ground cast shadow: station panels, screenshot frames, the interchange band." },
+      { "name": "lift-lg", "value": "0 26px 60px -28px rgba(13, 27, 42, 0.6)", "purpose": "The hero portrait plate only — the most forward object on the page." },
+      { "name": "dot", "value": "0 3px 10px -3px rgba(13, 27, 42, 0.5)", "purpose": "Station dots, so a bullet reads as a fixture mounted on the track." },
+      { "name": "focus-glow", "value": "0 0 0 3px rgba(255, 199, 44, 0.25)", "purpose": "Form fields at focus, alongside a yellow border. A focus indicator, not depth — the only non-cast shadow permitted." }
+    ],
+    "motion": [
+      { "name": "draw", "value": "transform 1.5s cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one authored moment: the two line tracks scale up from scaleY(0) on approach. Work track delayed 0.18s behind study." },
+      { "name": "state", "value": "0.2s", "purpose": "Every other transition — colour, border-colour, background and small transforms on hover, focus and pressed states." },
+      { "name": "nudge-x", "value": "translateX(3px) / translateX(5px)", "purpose": "Destination chips and profile rows move along the line on hover, never up off it." },
+      { "name": "nudge-y", "value": "translateY(-2px)", "purpose": "Primary buttons only; returns to 0 on :active. Suppressed under prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "corridor", "value": "62rem" },
+      { "name": "nav", "value": "52rem" },
+      { "name": "narrow", "value": "30rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action Button",
+      "kind": "button",
+      "refersTo": "action",
+      "description": "The page's only button style. Navy plate with a route-coloured bottom rule and an authored SVG glyph.",
+      "html": "<a class=\"ds-action\" href=\"#\" style=\"--bullet: #c8102e\">Open the app <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4h6v6\"/><path d=\"M20 4l-9 9\"/><path d=\"M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5\"/></svg></a>",
+      "css": ".ds-action { display: inline-flex; align-items: center; gap: 0.7rem; padding: 0.9rem 1.4rem; background: var(--ink, #0d1b2a); color: var(--white, #fff); text-decoration: none; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 700; letter-spacing: 0.13em; border: none; border-bottom: 5px solid var(--bullet, #ffc72c); cursor: pointer; transition: background 0.2s, transform 0.2s; } .ds-action svg { width: 16px; height: 16px; flex: 0 0 auto; } .ds-action:hover { background: var(--ink-raised, #16293d); transform: translateY(-2px); } .ds-action:active { transform: translateY(0); } .ds-action:focus-visible { outline: 3px solid var(--ink, #0d1b2a); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Destination Chip",
+      "kind": "button",
+      "refersTo": "dest",
+      "description": "Hero route links. Raised-navy plate with a route bullet; moves along the line on hover, not up off it.",
+      "html": "<a class=\"ds-dest\" href=\"#\" style=\"--bullet: #d96d00\">Experience <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15\"/><path d=\"M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-dest { display: inline-flex; align-items: center; gap: 0.7rem; padding: 0.7rem 1.15rem; background: var(--ink-raised, #16293d); color: var(--white, #fff); text-decoration: none; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 600; letter-spacing: 0.12em; transition: background 0.2s, transform 0.2s; } .ds-dest::before { content: \"\"; width: 0.85rem; height: 0.85rem; border-radius: 50%; background: var(--bullet, #ffc72c); flex: 0 0 auto; } .ds-dest svg { width: 16px; height: 16px; flex: 0 0 auto; margin-left: 0.15rem; } .ds-dest:hover { background: #1f3752; transform: translateX(3px); } .ds-dest:focus-visible { outline: 3px solid #ffc72c; outline-offset: 3px; }"
+    },
+    {
+      "name": "Signage Bar Link",
+      "kind": "nav",
+      "refersTo": "bar-link",
+      "description": "Sticky-bar nav item: route dot ahead of the label, route-coloured underline on hover, yellow when current.",
+      "html": "<nav class=\"ds-bar\" aria-label=\"Sections\"><a class=\"ds-bar-link\" href=\"#\" style=\"--bullet: #c8102e\"><span class=\"ds-bar-dot\"></span>Projects</a><a class=\"ds-bar-link\" href=\"#\" aria-current=\"true\" style=\"--bullet: #d96d00\"><span class=\"ds-bar-dot\"></span>Experience</a><a class=\"ds-bar-link\" href=\"#\" style=\"--bullet: #1268c3\"><span class=\"ds-bar-dot\"></span>Contact</a></nav>",
+      "css": ".ds-bar { display: flex; align-items: center; gap: 0.25rem; background: var(--ink, #0d1b2a); border-bottom: 4px solid var(--yellow, #ffc72c); padding: 0 1.25rem; min-height: 68px; } .ds-bar-link { display: flex; align-items: center; gap: 0.5rem; padding: 0.6rem 0.85rem; color: #cfd8e3; text-decoration: none; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 600; letter-spacing: 0.12em; font-size: 0.9375rem; border-bottom: 3px solid transparent; transition: color 0.2s, border-color 0.2s; } .ds-bar-dot { width: 0.75rem; height: 0.75rem; border-radius: 50%; background: var(--bullet, #ffc72c); flex: 0 0 auto; } .ds-bar-link:hover { color: #fff; border-bottom-color: var(--bullet, #ffc72c); } .ds-bar-link[aria-current=\"true\"] { color: #fff; border-bottom-color: #ffc72c; } .ds-bar-link:focus-visible { outline: 3px solid #ffc72c; outline-offset: 3px; }"
+    },
+    {
+      "name": "Station Panel",
+      "kind": "card",
+      "refersTo": "station-panel",
+      "description": "The corridor's dated station: white plate, hard frame, 6px route-coloured top rule, filled year chip.",
+      "html": "<div class=\"ds-station\"><span class=\"ds-station-year\">Dec 2005 – present</span><h3 class=\"ds-station-title\">Sr. Programmer / Analyst</h3><p class=\"ds-station-org\">Executive Office of Public Safety and Security</p><ul class=\"ds-station-list\"><li>Administer the agency's RDBMS and SQL Server instances.</li><li>Write and test the disaster-recovery plan for every server.</li></ul></div>",
+      "css": ".ds-station { --bullet: #d96d00; background: #fff; border: 2px solid #d6d5d0; border-top: 6px solid var(--bullet); padding: 1.85rem; box-shadow: 0 14px 34px -20px rgba(13, 27, 42, 0.55); max-width: 34rem; } .ds-station-year { display: inline-block; padding: 0.2rem 0.6rem; margin-bottom: 0.85rem; background: var(--bullet); color: #0d1b2a; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.9375rem; } .ds-station-title { margin: 0; font-family: Archivo, \"Helvetica Neue\", Arial, sans-serif; font-variation-settings: \"wdth\" 108; font-weight: 800; font-size: 1.375rem; line-height: 1.04; letter-spacing: -0.005em; text-transform: uppercase; color: #0d1b2a; } .ds-station-org { margin: 0.5rem 0 0; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 600; letter-spacing: 0.1em; font-size: 1rem; color: #4a5a6b; } .ds-station-list { margin: 1.1rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.6rem; } .ds-station-list li { position: relative; padding-left: 1.5rem; color: #33414f; font-family: Archivo, \"Helvetica Neue\", Arial, sans-serif; font-size: 0.9688rem; line-height: 1.55; } .ds-station-list li::before { content: \"\"; position: absolute; left: 0; top: 0.55em; width: 0.7rem; height: 3px; background: var(--bullet); }"
+    },
+    {
+      "name": "Project Plate",
+      "kind": "card",
+      "refersTo": "stop-plate",
+      "description": "Routed nameplate above a project's copy: red band, authored pictogram, title in expanded caps.",
+      "html": "<div class=\"ds-plate\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z\"/><path d=\"M14 3v5h5\"/></svg><h3>Loan approval models</h3></div>",
+      "css": ".ds-plate { display: flex; align-items: center; gap: 0.85rem; padding: 0.85rem 1.25rem; background: var(--red, #c8102e); color: #fff; max-width: 30rem; } .ds-plate svg { width: 22px; height: 22px; flex: 0 0 auto; } .ds-plate h3 { margin: 0; font-family: Archivo, \"Helvetica Neue\", Arial, sans-serif; font-variation-settings: \"wdth\" 112; font-weight: 800; font-size: 1.6rem; line-height: 1.04; letter-spacing: 0.005em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Contact Field",
+      "kind": "input",
+      "refersTo": "field-input",
+      "description": "Navy form field with a yellow focus border and glow; validation only fires after the visitor has interacted.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-f-email\">Email address</label><input id=\"ds-f-email\" type=\"email\" placeholder=\"jane@example.com\" required><span class=\"ds-field-error\">That address is not complete. I need it to reply.</span></div>",
+      "css": ".ds-field { display: grid; gap: 0.5rem; padding: 1.5rem; background: #0d1b2a; max-width: 26rem; } .ds-field label { font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 600; letter-spacing: 0.14em; font-size: 0.875rem; color: var(--yellow, #ffc72c); } .ds-field input { width: 100%; padding: 0.85rem 1rem; background: var(--ink-raised, #16293d); border: 2px solid var(--ink-rule, #2c435c); color: #fff; font-family: Archivo, \"Helvetica Neue\", Arial, sans-serif; font-size: 1rem; line-height: 1.5; border-radius: 0; } .ds-field input::placeholder { color: #93a2b2; } .ds-field input:hover { border-color: #3d5570; } .ds-field input:focus { border-color: #ffc72c; outline: none; box-shadow: 0 0 0 3px rgba(255, 199, 44, 0.25); } .ds-field input:user-invalid { border-color: #ff8a80; } .ds-field-error { display: none; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.8125rem; color: #ff8a80; } .ds-field input:user-invalid ~ .ds-field-error { display: block; }"
+    },
+    {
+      "name": "Line Legend Toggle",
+      "kind": "chip",
+      "refersTo": "legend-toggle",
+      "description": "Three-state control that traces one track. Outlined at rest; ink-filled when pressed, with the bullet flipped to the route colour so it survives the fill.",
+      "html": "<div class=\"ds-legend\" role=\"group\" aria-label=\"Trace one line\"><button class=\"ds-legend-btn\" type=\"button\" data-focus=\"all\" aria-pressed=\"true\" style=\"--bullet: #0d1b2a\">Both</button><button class=\"ds-legend-btn\" type=\"button\" data-focus=\"work\" aria-pressed=\"false\" style=\"--bullet: #d96d00\">Experience</button><button class=\"ds-legend-btn\" type=\"button\" data-focus=\"study\" aria-pressed=\"false\" style=\"--bullet: #00693e\">Education</button></div>",
+      "css": ".ds-legend { display: flex; gap: 0.5rem; flex-wrap: wrap; } .ds-legend-btn { display: flex; align-items: center; gap: 0.55rem; padding: 0.55rem 1rem; background: transparent; border: 2px solid #b9bdc0; color: #0d1b2a; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 600; letter-spacing: 0.12em; font-size: 0.875rem; cursor: pointer; transition: border-color 0.2s, background 0.2s; } .ds-legend-btn::before { content: \"\"; flex: none; width: 0.9rem; height: 0.9rem; border-radius: 50%; background: var(--bullet, #0d1b2a); } .ds-legend-btn:hover { border-color: #0d1b2a; } .ds-legend-btn[aria-pressed=\"true\"] { border-color: #0d1b2a; background: #0d1b2a; color: #fff; } .ds-legend-btn[aria-pressed=\"true\"]::before { background: #fff; } .ds-legend-btn[data-focus=\"work\"][aria-pressed=\"true\"]::before { background: #d96d00; } .ds-legend-btn[data-focus=\"study\"][aria-pressed=\"true\"]::before { background: #00693e; } .ds-legend-btn:focus-visible { outline: 3px solid #0d1b2a; outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Interchange Band",
+      "kind": "custom",
+      "refersTo": "interchange",
+      "description": "Painted across the corridor at the one year the record changes discipline; the two tracks run into it and out again.",
+      "html": "<div class=\"ds-interchange\"><span class=\"ds-interchange-year\">2005</span><p class=\"ds-interchange-text\">Interchange &middot; civil engineering to software</p></div>",
+      "css": ".ds-interchange { display: flex; flex-wrap: wrap; align-items: center; gap: 0.85rem 1.1rem; padding: 0.95rem 1.25rem; background: var(--ink, #0d1b2a); border-top: 4px solid var(--yellow, #ffc72c); border-bottom: 4px solid var(--yellow, #ffc72c); box-shadow: 0 14px 34px -20px rgba(13, 27, 42, 0.55); } .ds-interchange-year { flex: none; padding: 0.22rem 0.62rem; background: #ffc72c; color: #0d1b2a; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 700; letter-spacing: 0.1em; font-size: 0.9375rem; } .ds-interchange-text { margin: 0; color: #d8e0e9; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; text-transform: uppercase; font-weight: 600; letter-spacing: 0.14em; font-size: 1rem; }"
+    },
+    {
+      "name": "Route Bullet",
+      "kind": "custom",
+      "refersTo": "bullet",
+      "description": "The one curved form in the system. Lettered at section-head scale; hollow with a thick route ring as a station dot on the corridor.",
+      "html": "<div class=\"ds-bullets\"><span class=\"ds-bullet\" style=\"--bullet: #c8102e\">P</span><span class=\"ds-bullet\" style=\"--bullet: #1268c3\">C</span><span class=\"ds-dot\" style=\"--bullet: #d96d00\"></span><span class=\"ds-dot\" style=\"--bullet: #00693e\"></span></div>",
+      "css": ".ds-bullets { display: flex; align-items: center; gap: 0.75rem; } .ds-bullet { display: inline-grid; place-items: center; flex: 0 0 auto; width: 1.75em; height: 1.75em; border-radius: 50%; background: var(--bullet, #0d1b2a); color: #fff; font-family: \"Barlow Condensed\", \"Helvetica Neue\", Arial, sans-serif; font-weight: 700; font-size: 1rem; letter-spacing: 0.02em; } .ds-dot { display: block; flex: 0 0 auto; width: 26px; height: 26px; border-radius: 50%; background: #fff; border: 7px solid var(--bullet, #0d1b2a); box-shadow: 0 3px 10px -3px rgba(13, 27, 42, 0.5); box-sizing: content-box; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Transit Authority",
+    "overview": "This is a public-transport wayfinding system asked to carry one engineer's career. Everything borrows from Massachusetts civic signage: deep navy enamel panels bolted onto a concrete-grey ground, a tactile yellow edge along the platform, coloured route bands that mean something, and timetable rules setting dates in condensed caps. Nothing here is a card grid and nothing is a dark terminal. A visitor reads the page the way they read a station: find the colour, follow the line, arrive at the destination.\n\nThe density is that of real signage — generous air around a small number of very confident, very large elements, then tight, tabular data inside each panel. The register is institutional rather than personal: authoritative, plain, no persuasion in the ornament. Depth comes from material, not from software convention. A panel is a physical plate with a hard coloured edge and a shadow it casts on the ground; it is never a floating rounded rectangle with a soft glow. There are no gradients anywhere in the build, and none may be introduced.\n\nThe system is deliberately narrow so it stays hand-editable forever: two typefaces from Google Fonts loaded by <link>, one stylesheet, one script, no npm and no bundler. Every rule must be achievable in plain HTML and CSS on GitHub Pages, because that is the whole delivery mechanism.",
+    "keyCharacteristics": [
+      "Navy enamel panels (ink) on a concrete ground (ground), with a tactile yellow platform edge at 14px",
+      "Four route colours that are functional labels, not decoration: red projects, orange work, green study, blue contact",
+      "Archivo's variable wdth axis genuinely worked — 122 down to 100 as type size falls",
+      "Barlow Condensed reserved entirely for timetable data: years, legends, chips, nav, buttons",
+      "Hard rectangles everywhere; the only curve in the system is a route bullet",
+      "Authored inline SVG pictograms at a single 2.25 stroke weight; no icon font, no icon library",
+      "One authored motion moment in the entire page, and it defaults to finished"
+    ],
+    "rules": [
+      { "name": "The Route Colour Rule", "body": "A colour names a destination; it never decorates. Red is projects, orange is work, green is study, blue is contact. If a new element cannot be assigned to one of those four, it takes navy or yellow. Adding a fifth hue means adding a fifth destination.", "section": "colors" },
+      { "name": "The Bullet Inheritance Rule", "body": "Route colour enters a subtree exactly once, as style=\"--bullet: var(--red)\" on the section or link. Every child — the head rule, the route bullet, the button's underline, the link underline, the list marker — reads var(--bullet). Never hard-code a route hex on a descendant.", "section": "colors" },
+      { "name": "The Yellow-Is-Not-A-Route Rule", "body": "Yellow marks the tactile edge, focus on navy, the current position, and the interchange. It never labels a section and never competes with a route colour for meaning.", "section": "colors" },
+      { "name": "The Two-Voice Rule", "body": "Archivo speaks; Barlow Condensed labels. Nothing that is a sentence is set in Barlow Condensed, and nothing that is a date, a legend, a chip, a nav item or a button is set in Archivo. There is no third face and no italic anywhere in the build.", "section": "typography" },
+      { "name": "The Width-Follows-Scale Rule", "body": "Archivo's wdth axis widens as type gets larger and narrows as it gets smaller: 122 at the name, 118 at section heads and the wordmark, 112 at plates, 108 at station headings, 100 for prose. Never set a heading at 100, and never expand body copy.", "section": "typography" },
+      { "name": "The Caps-Are-Signage Rule", "body": "Uppercase means the text is signage or data — headings, labels, chips, buttons, years. Body copy is never uppercased and never letter-spaced.", "section": "typography" },
+      { "name": "The Corridor Rule", "body": "Everything in the line section measures from 42.5% — tracks, dots, panel columns, distance ticks. Move that number and all four move together; never nudge one carrier independently.", "section": "layout" },
+      { "name": "The Empty-Lane Rule", "body": "The lane without a station in it is still corridor, not margin. It carries the distance tick for that row, and the corridor is narrowed to 1080px so the lane stays legible as track.", "section": "layout" },
+      { "name": "The No-Halo Rule", "body": "Every depth shadow has downward offset and negative spread. No centred glows, no 0 0 Npx ambient rings, no gradients — not in a background, not in an overlay, not in an SVG.", "section": "elevation" },
+      { "name": "The Border-Carries-Structure Rule", "body": "If an element needs to read as a separate physical object, give it a hard border in ink or its route colour before you reach for a shadow. Shadow lifts a plate that is already framed; it never substitutes for the frame.", "section": "elevation" },
+      { "name": "The Square-Except-Bullets Rule", "body": "Zero radius on everything that holds content. The only curved things in the system are route bullets and station dots, which are always full circles, never pills. The 2px on the global focus ring is the sole tolerated exception, and it exists so the ring does not read as a fifth border style.", "section": "shapes" },
+      { "name": "The Muted-Carrier Rule", "body": "Tracing one line desaturates exactly four things on the other: the track, the station dot, the panel's top rule, and the year chip. Text colour, size, weight and position never change. Colour is the only channel the interaction is allowed to touch.", "section": "components" },
+      { "name": "The Drawn-By-Default Rule", "body": "The finished state is the CSS default. The draw-from-zero rule is scoped to .js .line:not(.is-drawn), and the js class is set by an inline script, so no-JS, failed-script and reduced-motion visitors all get the completed diagram rather than an empty corridor. Any future animation must be built the same way round.", "section": "components" }
+    ],
+    "dos": [
+      "Do assign route colour once with style=\"--bullet: var(--green)\" on the section or link and let every descendant read var(--bullet).",
+      "Do use Archivo for anything that is a sentence or a heading and Barlow Condensed for anything that is a label, a date, a chip or a button.",
+      "Do widen Archivo's wdth axis as type scales up — 108 at station headings, 118 at section heads, 122 at the name — and leave prose at 100.",
+      "Do frame a plate with a hard border (6px route colour on top, 6px ink around images, 14px yellow at the page edges) before considering a shadow.",
+      "Do keep the focus ring ink on the light ground and yellow on navy; yellow reads at roughly 1.2:1 against concrete and is not a visible indicator there.",
+      "Do author new icons as inline <symbol> entries in the sheet at stroke-width: 2.25, 24x24, round caps and joins, fill=\"none\", currentColor.",
+      "Do ship every animation with its finished state as the CSS default, gated behind the js class.",
+      "Do cap prose at the measure token; long-form paragraphs get a line length, signage lines get max-width: none."
+    ],
+    "donts": [
+      "Don't use a gradient anywhere — background, overlay, border or SVG. The build has zero and the material is enamel, which is flat.",
+      "Don't round a container, chip, field or button. Circles are for route bullets only, and pills are not part of this system.",
+      "Don't introduce a fifth accent hue. Five signal colours exist because five things need naming; a sixth needs a destination first.",
+      "Don't set Signal Orange as text on the concrete ground — use the deepened orange-ink variant.",
+      "Don't change text colour, size or weight when a filter or focus state changes. Mute the colour carriers only.",
+      "Don't add an icon font, an icon package, or an <img src> icon. The symbol sheet is the whole vocabulary; the two filled brand marks (GitHub, LinkedIn, X) are a deliberate second tier and the only filled glyphs allowed.",
+      "Don't put <text> inside an SVG that is loaded through <img src> — it is an isolated document and cannot reach the page webfonts. Set the lettering in HTML over the plate.",
+      "Don't introduce anything that requires npm, a bundler, a framework or a Pages Action. Every rule above has to survive a plain git push.",
+      "Don't promote a second animated moment. The track draw is the page's one authored gesture; adding a second spends what makes it read as authored."
+    ]
+  }
+}

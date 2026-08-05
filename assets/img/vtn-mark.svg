@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VTN">
+  <title>VTN</title>
+
+  <!-- Interchange roundel: four route arcs around an enamel plate.
+       Arc colours run clockwise in the site's own destination order —
+       red projects, orange work, green study, blue contact.
+       Letterforms are outlined paths, never <text>: this file is loaded through
+       <img> and as a favicon, where page webfonts are unreachable. -->
+
+  <g fill="none" stroke-width="6" stroke-linecap="butt">
+    <path d="M33.46 4.04 A28 28 0 0 1 59.96 30.54" stroke="#C8102E"/>
+    <path d="M59.96 33.46 A28 28 0 0 1 33.46 59.96" stroke="#D96D00"/>
+    <path d="M30.54 59.96 A28 28 0 0 1 4.04 33.46" stroke="#00693E"/>
+    <path d="M4.04 30.54 A28 28 0 0 1 30.54 4.04" stroke="#1268C3"/>
+  </g>
+
+  <circle cx="32" cy="32" r="25" fill="#F3F2EE"/>
+
+  <g fill="#0D1B2A">
+    <!-- V -->
+    <path d="M13.45 23 H17.25 L19.20 37.5 L21.15 23 H24.95 L21.05 41 H17.35 Z"/>
+    <!-- T -->
+    <path d="M26.75 23 H37.25 V26.8 H33.90 V41 H30.10 V26.8 H26.75 Z"/>
+    <!-- N -->
+    <path d="M39.05 23 H42.85 L46.75 33.8 V23 H50.55 V41 H46.75 L42.85 30.2 V41 H39.05 Z"/>
+  </g>
+</svg>
