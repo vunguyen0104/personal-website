@@ -57,3 +57,10 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # The default is 10 minutes. The first run on this pipeline took
+          # 9m37s to go from in_progress to success, so the default leaves
+          # about 23 seconds of headroom on a backend that is evidently still
+          # slow for this site. This does not hide a failure — a genuinely
+          # stuck deploy still aborts, just later.
+          timeout: 1200000
