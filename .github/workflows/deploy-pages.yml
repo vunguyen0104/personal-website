@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------------------
+# vunguyen.io — publish to GitHub Pages
+#
+# Replaces the legacy "deploy from a branch" pipeline, which wedged on
+# 2026-08-06: Pages accepted the deployment and then reported
+# deployment_in_progress forever until the deploy action timed out.
+#
+# There is no Jekyll here — no _config.yml, no Gemfile, no layouts. The repo
+# root IS the site, so this uploads it directly and skips the build step the
+# old pipeline was stuck in.
+# ---------------------------------------------------------------------------
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race. Queue rather than cancel, so a superseded run
+# still finishes cleanly instead of leaving Pages half-updated.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prune everything that isn't the site
+        # Jekyll used to hide dot-directories and we're keeping that boundary:
+        # a plain upload would serve the design record at vunguyen.io/DESIGN.md
+        # and friends. Whatever the page actually loads stays — index.html,
+        # assets/, certificates/, CNAME.
+        run: rm -rf .impeccable .github .gitignore DESIGN.md PRODUCT.md
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
